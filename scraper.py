@@ -38,7 +38,7 @@ def scrape_page(url):
     scrape_table(root)
 
 #START HERE: This is the part of the URL which all our pages share
-base_url = 'http://www.marinetraffic.com/en/ais/details/ships/'
+base_url = 'http://www.marinetraffic.com/en/ais/details/ships/shipID:'
 #And these are the numbers which we need to complete that URL to make each individual URL
 #This list has been compiled using the =JOIN formula in Google Docs on a column of mmsi numbers
 schoolIDs = ['408044']
