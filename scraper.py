@@ -41,7 +41,7 @@ def scrape_page(url):
 base_url = 'http://www.marinetraffic.com/en/ais/details/ships/'
 #And these are the numbers which we need to complete that URL to make each individual URL
 #This list has been compiled using the =JOIN formula in Google Docs on a column of mmsi numbers
-schoolIDs = ['8606185']
+schoolIDs = ['408044']
 
 #go through the schoolIDs list above, and for each ID...
 for item in schoolIDs:
